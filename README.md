@@ -1,2 +1,2 @@
-# icobusses.hithub.io
+# icobusses.github.io
 Site for ico-busses
