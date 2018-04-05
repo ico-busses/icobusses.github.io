@@ -103,7 +103,7 @@
                             
                            <!-- .item -->
 
-                            <div class="item overlay caption-left" style="background:url(images/banner-4.jpeg) top center; background-size:cover;">
+                            <div class="item overlay caption-left" style="background-image: url(images/banner-4.jpeg); background-size: cover; background-position: center; height: 100vh">
 
                                 <div class="caption-holder">
                                     <div class="container">
@@ -371,52 +371,54 @@
                             </div> <!-- .section-title --> 
 
                             <div class="form-wrapper">
-                                <form>
+                              <form>
 
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-input-wrapper">
-                                        <div class="form-input" style="width: 100%;">
-                                            <input type="text" placeholder="Subject" required="">
-                                        </div> <!-- .form-input -->
-
-                                       
-                                    </div> <!-- form-input-wrapper -->
-
-                                    <div class="form-input-wrapper">
-                                        <div class="form-input">
-                                            <input type="text" placeholder="First Name">
-                                        </div> <!-- .form-input -->
-
-                                        <div class="form-input">
-                                            <input type="text" placeholder="Lastname" required="">
-                                        </div> <!-- .form-input -->
-                                    </div> <!-- form-input-wrapper -->
-                                    <div class="form-input-wrapper">
-                                        <div class="form-input" style="width: 100%;">
-                                            <input type="email" placeholder="Email" required="" style="width: 100%;">
-                                        </div> <!-- .form-input -->
-
-                                       
-                                    </div> 
-                                        </div>
-                                        <div class="col-md-6">
-                                             <textarea placeholder="Your Message"></textarea>
-                                        </div>
-                                        <div class="row" style="text-align: center;">
-                                            <input type="submit" value="Send Message"/>
-                                        </div>
-                                        <br/>
-                                    </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-input-wrapper">
+                                            <div class="form-input form-group" style="width: 100%;">
+                                                <input type="text" placeholder="Subject" class="form-control" required="">
+                                            </div> <!-- .form-input -->
 
                                    
+                                </div> <!-- form-input-wrapper -->
 
+                                <div class="form-input-wrapper form-group">
+                                    <div class="form-input">
+                                        <input type="text" placeholder="First Name" class="form-control" required="">
+                                    </div> <!-- .form-input -->
+
+                                    <div class="form-input form-group">
+                                        <div class="col-sm-10"><input type="text" placeholder="Lastname" class="form-control" required=""></div>
+                                    </div> <!-- .form-input -->
+                                </div> <!-- form-input-wrapper -->
+                                <div class="form-input-wrapper form-group">
+                                    <div class="form-input" style="width: 100%;">
+                                        <input type="email" placeholder="Email" class="form-control" required="" style="width: 100%;">
+                                    </div> <!-- .form-input -->
+
+                                   
+                                </div> 
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                         <textarea placeholder="Your Message" class="form-control"></textarea>
+                                    </div>
                                     
-                                </form>
+                                </div>
+                                <div class="row" style="text-align: center;">
+                                        <input type="submit" value="Send Message"/>
+                                </div>
+                                    
+
+                               
+
+                                
+                            </form>
 
                                 
 
                             </div> <!-- .form-wrapper --> 
+                            
 
                         </div> <!-- .contacts-content -->
 
