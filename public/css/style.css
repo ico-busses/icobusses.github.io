@@ -2195,6 +2195,9 @@ li {
     height: 70px;
     width: auto;
     float: left;
+    position: absolute;
+    top: -5px;
+    /* left: -40px; */
 }
 
 #logo_image{
@@ -2202,6 +2205,8 @@ li {
     top: 5px;
     left: 25px;
 }
+
+
 
 .site-header{
     float: left;
