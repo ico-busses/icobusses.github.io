@@ -1567,8 +1567,7 @@ object {
 }
 
 section {
-    margin: 0px;
-    padding: 100px 0;
+    padding: 60px;
 }
 
 .pull-left {
@@ -2192,7 +2191,7 @@ li {
 --------------------------------------------------------------*/
 
 .logo {
-    height: 70px;
+    height: 60px;
     width: auto;
     float: left;
     position: absolute;
@@ -2200,10 +2199,10 @@ li {
     /* left: -40px; */
 }
 
-#logo_image{
+#logo_image {
     position: absolute;
-    top: 5px;
-    left: 25px;
+    top: 10px;
+    left: 40px;
 }
 
 
@@ -2756,6 +2755,10 @@ li {
     width: 100%;
 }
 
+.about-section{
+    background: #f9f9f9;
+}
+
 .about-content-wrap {
     display: table;
     width: 100%;
@@ -2767,6 +2770,8 @@ li {
     width: 50%;
     vertical-align: middle;
     color: #555;
+    /* text-align: justify; */
+    /* text-align: inter-word; */
 }
 
 .about-content-wrap .about-featured-image {
@@ -2780,7 +2785,7 @@ li {
 }
 
 .about-content-wrap .about-text-content {
-    padding-left: 90px;
+    text-align: justify;
 }
 
 .about-content-wrap .about-text-content h2,
@@ -3102,10 +3107,6 @@ button.lg-prev:after {
 .pricing-item .pricing-footer {
     float: left;
     width: 100%;
-}
-
-.pricing-section {
-    background: #f9f9f9; 
 }
 
 .pricing-item {
@@ -3578,8 +3579,8 @@ button.lg-prev:after {
 }
 
 .contact-section {
-    
-    padding:0;
+    background: #f9f9f9;
+    /* padding:0; */
     position: relative;
 }
 
@@ -4141,7 +4142,7 @@ button.lg-prev:after {
 }
 
 #footer-widgets .widget-column {
-    padding-left: 15px;
+    /* padding-left: 15px; */
     padding-right: 15px;
     word-wrap: break-word;
 }
@@ -4549,6 +4550,23 @@ button.lg-prev:after {
         padding-left: 30px;
     }
 
+    img {
+        height: 50px;
+        max-width: none;
+    }
+
+    #logo_image {
+        position: absolute;
+        top: -10px;
+        left: -80px;
+    }
+
+    .logo {
+        height: 40px;
+        width: auto;
+        float: left;
+    }
+
 }
 
 
@@ -4752,4 +4770,12 @@ button.lg-prev:after {
 #footer-widgets li a:hover,
 #footer-widgets li a:active{
     color: #ddd;
+}
+
+.contact-col{
+    padding-left: 80px;
+}
+
+.soc-col{
+    padding-left: 80px;
 }
