@@ -4338,7 +4338,7 @@ button.lg-prev:after {
 }
 
 .mean-container a.meanmenu-reveal {
-    top: -3px;
+    top: -20px;
     color: #fe6619;
 }
 
@@ -4555,12 +4555,12 @@ button.lg-prev:after {
 
     #logo_image {
         position: absolute;
-        top: -10px;
-        left: -80px;
+        top: -15px;
+        left: -50px;
     }
 
     .logo {
-        height: 40px;
+        height: 50px;
         width: auto;
         float: left;
     }
@@ -4587,6 +4587,12 @@ button.lg-prev:after {
 
     .contacts-content {
         padding: 50px 0px 50px 50px;
+    }
+
+    #logo_image {
+        position: absolute;
+        top: -15px;
+        left: -10px;
     }
 
 }
@@ -4688,7 +4694,24 @@ button.lg-prev:after {
     #content {
         margin-bottom: 0px !important;
     }
+
+    .contact-col, .soc-col{
+        padding-left: 0px !important;
+    }
     
+    #footer-widgets {
+        background: #333;
+        padding: 60px 0px;
+        position: relative;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #logo_image {
+        position: absolute;
+        top: -15px;
+        left: -10px;
+    }
 }
 
 @media screen and (max-width: 639px){
@@ -4702,9 +4725,35 @@ button.lg-prev:after {
         font-size: 20px;
     }
 
+    .soc-col {
+        padding-left: 0px;
+    }
+
+    .contact-col {
+        padding-left: 0px !important;
+    }
+
     .slick-main-slider .item .caption-holder .button-holder .button {
         margin-top: 5px;
         margin-bottom: 5px;
+    }
+
+    .contact-col, .soc-col{
+        padding-left: 0px !important;
+    }
+
+    #footer-widgets {
+        background: #333;
+        padding: 60px 0px;
+        position: relative;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #logo_image {
+        position: absolute;
+        top: -15px;
+        left: -10px;
     }
 }
 
@@ -4740,6 +4789,22 @@ button.lg-prev:after {
         margin-left: 0px;
     }
 
+    .contact-col, .soc-col{
+        padding-left: 0px !important;
+    }
+    #footer-widgets {
+        background: #333;
+        padding: 60px 0px;
+        position: relative;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #logo_image {
+        position: absolute;
+        top: -15px;
+        left: -10px;
+    }
 }
 
 
@@ -4770,10 +4835,6 @@ button.lg-prev:after {
     color: #ddd;
 }
 
-.contact-col{
-    padding-left: 80px;
-}
-
-.soc-col{
+.contact-col, .soc-col{
     padding-left: 80px;
 }
