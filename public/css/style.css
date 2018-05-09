@@ -4359,6 +4359,11 @@ button.lg-prev:after {
     z-index: 999;
 }
 
+.copyright{
+    background-color: #282727;
+    text-align: center;
+}
+
 /*-------------------------------------- 
 # Error 404 Page Css Styles
 ----------------------------------------*/
@@ -4755,6 +4760,13 @@ button.lg-prev:after {
         top: -15px;
         left: -10px;
     }
+
+    .logo {
+        height: 45px;
+        padding: 5px 0 0 4px;
+        width: auto;
+        float: left;
+    }
 }
 
 
@@ -4796,6 +4808,7 @@ button.lg-prev:after {
         background: #333;
         padding: 60px 0px;
         position: relative;
+        text-align: center;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -4804,6 +4817,13 @@ button.lg-prev:after {
         position: absolute;
         top: -15px;
         left: -10px;
+    }
+
+    .logo {
+        height: 45px;
+        padding: 5px 0 0 4px;
+        width: auto;
+        float: left;
     }
 }
 
