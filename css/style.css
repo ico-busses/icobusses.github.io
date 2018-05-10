@@ -443,9 +443,9 @@ ol {
     margin: 0 0 1.5em 3em;
 }
 
-ul {
+/* ul {
     list-style: disc;
-}
+} */
 
 ol {
     list-style: decimal;
@@ -4135,7 +4135,7 @@ button.lg-prev:after {
 
 #footer-widgets {
     background: #333;;
-    padding: 60px 0px;
+    padding: 60px 15px;
     position: relative;
 }
 
@@ -4323,6 +4323,9 @@ button.lg-prev:after {
     color: #fe6619;
 }
 
+ul.footerfeatures {
+    list-style-type: none;
+}
 /*-------------------------------------- 
 # Mean Menu  Css Styles
 ----------------------------------------*/
@@ -4746,7 +4749,7 @@ button.lg-prev:after {
     .contact-col, .soc-col{
         padding-left: 0px !important;
     }
-
+1
     #footer-widgets {
         background: #333;
         padding: 60px 0px;
@@ -4806,10 +4809,9 @@ button.lg-prev:after {
     }
     #footer-widgets {
         background: #333;
-        padding: 60px 0px;
+        padding: 60px 70px;
         position: relative;
         /* text-align: center; */
-        padding: 22px;
     }
 
     #logo_image {
