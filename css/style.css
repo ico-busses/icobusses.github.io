@@ -2331,13 +2331,21 @@ li {
     width: 100%;
     left: 0;
 }
+.section-title h1{color: #f3f3f3;}
+
+.button-holder,
+.landing-content,{
+    text-align: center;
+}
+
+.landing-content p{color: #f3f3f3; }
 
 .slick-main-slider .item.caption-center .caption-holder,
 .caption-center .caption-holder {
     text-align: center;
 } 
 
-.slick-main-slider .item.caption-left .caption-holder,
+/* .slick-main-slider .item.caption-left .caption-holder,
 .slick-main-slider .item.caption-left .caption-holder .button-holder,
 .caption-left .caption-holder,
 .caption-left .caption-holder .button-holder {
@@ -2349,7 +2357,7 @@ li {
 .caption-right .caption-holder,
 .caption-right .caption-holder .button-holder {
     text-align: right;
-} 
+}  */
 
 #main-banner .caption {
     display: inline-block;
@@ -2451,6 +2459,7 @@ li {
 .features-item .features-text-content p {
     float: left;
     width: 100%;
+    background-attachment: fixed;
 }
 
 .section-title {
@@ -2731,6 +2740,7 @@ li {
     margin: 0px 20px 0px 0px;
 }
 
+
 /*--------------------------------------------------------------
 ## About Us Section Styles Starts 
 --------------------------------------------------------------*/
@@ -2751,10 +2761,13 @@ li {
 .meter > span {
     float: left;
     width: 100%;
+    background-attachment: fixed;
 }
 
 .about-section{
-    background: #f9f9f9;
+    background-image:url(img/page_2.jpg);
+    background-position: center center;
+    overflow: hidden;
 }
 
 .about-content-wrap {
@@ -2767,9 +2780,9 @@ li {
     display: table-cell;
     width: 50%;
     vertical-align: middle;
-    color: #555;
-    /* text-align: justify; */
-    /* text-align: inter-word; */
+    color: #f3f3f3;
+    text-align: justify;
+    text-align: inter-word;
 }
 
 .about-content-wrap .about-featured-image {
@@ -3105,6 +3118,19 @@ button.lg-prev:after {
 .pricing-item .pricing-footer {
     float: left;
     width: 100%;
+    background-attachment: fixed;
+}
+
+.pricing-section{
+    background-image: url('img/page_3.jpg');
+    background-position: center;
+}
+
+.features-section{
+    background-image: url('img/page_1.jpg');
+    color: #f3f3f3;
+    background-position: center center;
+    overflow: hidden;
 }
 
 .pricing-item {
@@ -3573,13 +3599,33 @@ button.lg-prev:after {
 .contact-info .contact-item .contact-info-text h6,
 .contact-info .contact-item .contact-info-text p {
     float: left;
+    background-attachment: fixed;
     width: 100%;
 }
 
+.contact-form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.more-info{
+    width: 50%;
+    margin: 0 auto;
+    margin-right: 0;
+}
+
+.more-info p{
+    color: #f3f3f3;
+    margin: 0 0 50px 20px;
+    text-align: justify;
+}
+
 .contact-section {
-    background: #f9f9f9;
-    /* padding:0; */
+    padding: 60px 0;
+    background-image:url(img/contact_us_page.jpg);
     position: relative;
+    background-position: center center;
+    overflow: hidden;
 }
 
 .contacts-content {
@@ -3621,6 +3667,7 @@ button.lg-prev:after {
 .form-wrapper form textarea {
     height: 150px;
     margin-bottom: 20px;
+    color: #171717;
 }
 
 .form-wrapper form input[type="submit"] {
@@ -4124,6 +4171,7 @@ button.lg-prev:after {
 .site-info-holder{
     float: left;
     width: 100%;
+    background-attachment: fixed;
 }
 
 .site-footer {
