@@ -12,6 +12,10 @@
       }
     });
 
+    $('.js--scroll-to-features').click(function(){
+      $('html,body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
+    });
+
     $scroll_obj.on('click', function(e){
       $( 'html, body' ).animate( { scrollTop: 0 }, 600 );
       return false;
