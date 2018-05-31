@@ -124,13 +124,13 @@
   $(window).on('scroll', function () {
 
     if ($(window).scrollTop() > aboveHeight){
-      $("#logo_image").attr("src", "css/ico busses logo dark version final.png");
+      $("#logo_image").attr("src", "css/logo for home screen.png");
       $('body').addClass('fixed-header-on');
 
     } else {
 
       $('body').removeClass('fixed-header-on');
-      $("#logo_image").attr("src", "css/ico busses logo light version  final.png");
+      $("#logo_image").attr("src", "css/css/logo for home screen.png");
     }
 
   });
