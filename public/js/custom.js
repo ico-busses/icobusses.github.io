@@ -13,7 +13,7 @@
     });
 
     $('.js--scroll-to-features').click(function(){
-      $('html,body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
+      $('html,body').animate({scrollTop: $('.js--section-features').offset().top}, 600);
     });
 
     $scroll_obj.on('click', function(e){
@@ -124,7 +124,7 @@
   $(window).on('scroll', function () {
 
     if ($(window).scrollTop() > aboveHeight){
-      $("#logo_image").attr("src", "css/logo for home screen.png");
+      $("#logo_image").attr("src", "css/logo for other screens png.png");
       $('body').addClass('fixed-header-on');
 
     } else {
