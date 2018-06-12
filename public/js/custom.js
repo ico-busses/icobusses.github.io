@@ -130,7 +130,7 @@
     } else {
 
       $('body').removeClass('fixed-header-on');
-      $("#logo_image").attr("src", "css/css/logo for home screen.png");
+      $("#logo_image").attr("src", "css/logo for home screen.png");
     }
 
   });
