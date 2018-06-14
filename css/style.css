@@ -1,3 +1,4 @@
+
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -137,6 +138,7 @@ h1 {
     margin-top: 0;
     margin-bottom: 20px;
     color: #fff;
+    font-size: 240%;
     word-spacing: 4px;
     letter-spacing: 1px;
 }
@@ -720,6 +722,7 @@ a:active {
     position: relative;
     display: inline-block;
     margin-bottom:0;
+    /* float: left; */
 }
 
 .main-navigation ul > li:hover > ul {
@@ -990,11 +993,13 @@ a:active {
 --------------------------------------------------------------*/
 .alignleft {
     display: inline;
+    /* float: left; */
     margin-right: 15px;
 }
 
 .alignright {
     display: inline;
+    /* float: right; */
     margin-left: 15px;
 }
 
@@ -1293,7 +1298,7 @@ span.comments-link::before {
     width: 50%;
 }
 
-.comments-area #commentform p.logged-in-as {
+.comments-area form#commentform p.logged-in-as {
     padding: 0 15px;
     width: 100%;
 }
@@ -1810,7 +1815,7 @@ li {
     margin:0;
     position: absolute;
     bottom: 0;
-    float: left;
+    /* float: left; */
     width: 100%;
     text-align: center;
 }
@@ -2197,7 +2202,7 @@ li {
 #logo_image {
     position: absolute;
     top: 10px;
-    left: 40px;
+    left: 100px;
 }
 
 .site-header{
@@ -2322,14 +2327,14 @@ li {
     -ms-transform: translate(0%, -50%);
     -o-transform: translate(0%, -50%);
     position: absolute;
-    top: 50%;
+    top: 55%;
     width: 100%;
     left: 0;
 }
 .section-title h1{color: #f3f3f3;}
 
 .button-holder,
-.landing-content{
+.landing-content,{
     text-align: center;
 }
 
@@ -2461,7 +2466,7 @@ li {
 .section-title,
 .section-landing-title {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     position: relative;
     padding-bottom: 15px;
 }
@@ -4236,6 +4241,7 @@ button.lg-prev:after {
 #footer-widgets .widget ul li {
     margin-bottom: 8px;
     display: inline-block;
+    float: left;
     width: 100%;
 }
 
@@ -4257,15 +4263,15 @@ button.lg-prev:after {
     /* padding-left: 32px; */
 }
 
-/*#footer-widgets .widget ul li i {*/
-/*    font-size: 15px;*/
-/*    color: #8a8a8a;*/
-/*    font-family: "FontAwesome";*/
-/*    position: absolute;*/
-/*    top:8px;*/
-/*    left: 0;*/
-/*    line-height: 1;*/
-/*}*/
+/* #footer-widgets .widget ul li i {
+   font-size: 15px;
+    color: #8a8a8a;
+    font-family: "FontAwesome";
+    position: absolute;
+    top:8px;
+    left: 0;
+    line-height: 1;
+} */
 
 #footer-widgets .widget.widget_recent_posts ul li a {
     position: relative;
@@ -4809,7 +4815,7 @@ ul.footerfeatures {
     .contact-col, .soc-col{
         padding-left: 0px !important;
     }
-1
+
     #footer-widgets {
         background: #333;
         padding: 60px 0px;
@@ -4830,6 +4836,7 @@ ul.footerfeatures {
         width: auto;
         float: left;
     }
+}
 
 
 
