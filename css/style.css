@@ -1,4 +1,3 @@
-
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -3640,7 +3639,7 @@ button.lg-prev:after {
 
 .contact-section {
     padding: 60px 0;
-    background-image:url(img/contact_us_page.jpg);
+    background-image:url(img/contact-us.jpg);
     position: relative;
     background-position: center center;
     overflow: hidden;
