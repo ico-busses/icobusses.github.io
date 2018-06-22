@@ -124,13 +124,13 @@
   $(window).on('scroll', function () {
 
     if ($(window).scrollTop() > aboveHeight){
-      $("#logo_image").attr("src", "css/logo for other screens png.png");
+      $("#logo_image").attr("src", "css/dark variation for other pages..png");
       $('body').addClass('fixed-header-on');
 
     } else {
 
       $('body').removeClass('fixed-header-on');
-      $("#logo_image").attr("src", "css/logo for home screen.png");
+      $("#logo_image").attr("src", "css/light variation for home screen..png");
     }
 
   });
